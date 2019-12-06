@@ -4,10 +4,10 @@
       <Cmenu :menu="artmenu" />
     </el-aside>
     <el-container>
-      <el-main>
+      <div class="full-height full-width">
         <router-view></router-view>
-      </el-main>
-      <el-footer height="20px">Footer</el-footer>
+      </div>
+      <el-footer height="25px">Maylusinc@2019</el-footer>
     </el-container>
   </el-container>
 </template>
