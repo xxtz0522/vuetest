@@ -7,7 +7,7 @@
       <el-main>
         <router-view></router-view>
       </el-main>
-      <el-footer height="20px">Footer</el-footer>
+      <el-footer height="25px">Maylusinc@2019</el-footer>
     </el-container>
   </el-container>
 </template>
@@ -23,8 +23,8 @@ export default {
   data() {
     return {
       artmenu: [
-        { name: "line", url: "", icon: "el-icon-location", children:[
-          { name: "subtest", url: "/artworks/line"}
+        { name: "line", url: "/artworks/color", icon: "el-icon-location", children:[
+          { name: "subtest", url: "/artworks/line"},
         ] },
         { name: "color", url: "/artworks/color", icon: "el-icon-menu" },
         { name: "test", url: "/about", icon: "el-icon-document" }

@@ -4,7 +4,7 @@
       <Cmenu :menu="artmenu" />
     </el-aside>
     <el-container>
-      <div class="full-height full-width">
+      <div class="full-width" style="height:calc(100% - 25px);">
         <router-view></router-view>
       </div>
       <el-footer height="25px">Maylusinc@2019</el-footer>

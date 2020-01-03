@@ -8,15 +8,22 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "cheap-ruler": "^2.5.1",
     "core-js": "^2.6.5",
+    "echarts": "^4.2.1",
+    "echarts-gl": "^1.1.1",
+    "echarts-liquidfill": "^2.0.5",
     "element-ui": "^2.10.1",
+    "lineclip": "^1.1.5",
     "mapbox-gl": "^1.5.0",
     "vue": "^2.6.10",
+    "vue-echarts": "^4.0.3",
     "vue-mapbox": "^0.4.1",
-    "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "vue-router": "^3.0.3"
   },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.7.5",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
@@ -27,7 +34,8 @@
     "eslint-plugin-vue": "^5.2.3",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.1.2"
   },
   "eslintConfig": {
     "root": true,

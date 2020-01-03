@@ -38,6 +38,7 @@ export default new Router({
       path: '/maps',
       name: 'maps',
       component: Maps,
+      redirect: { name: 'mapboxs' },
       children: [
         {
           path: 'leaflet',
